@@ -1,25 +1,16 @@
 package com.example.SpringIntro;
 
+
 public class Laptop {
-	private Processor process;
+	
+	private Processor processor;
+	public Laptop(Processor processor) {
+		this.processor = processor;
+	}
+	
+	public void start() {
+		processor.boot();
+	}
 	
 	
-	
-	public void setProcess(Processor process) {
-		this.process = process;
-	}
-
-
-
-	public Processor getProcess() {
-		return process;
-	}
-
-
-
-	public void callProcess() {
-		process.runProcessor();
-	}
-
-
 }

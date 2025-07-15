@@ -5,6 +5,20 @@
            http://www.springframework.org/schema/beans
            http://www.springframework.org/schema/beans/spring-beans.xsd">
 			
-
+			<!--			
+			<bean id ="engine" class ="com.example.SpringIntro.Engine"/>			
+			<bean id = "car" class = "com.example.SpringIntro.Car">
+				<constructor-arg ref = "engine"/>
+			</bean>
+			 -->
+			 
+			 <bean id = "intelProcessor" class= "com.example.SpringIntro.IntelProcessor"/>
+			 
+			 <bean id = "amdProcessor" class = "com.example.SpringIntro.AMDProcessor"/>
+			 
+			 <bean id = "laptop" class = "com.example.SpringIntro.Laptop">
+			 	<constructor-arg ref ="amdProcessor"/>
+			 </bean>
+			
 
 </beans>

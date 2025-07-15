@@ -20,7 +20,10 @@ This repository includes:
 
 | Topic | Status | Notes | Demo Code |
 |-------|--------|-------|-----------|
-| ✅ Dependency Injection (DI) | ✅ Done | [Notes](notes/dependency-injection.md) | [Code](code/di-example/) |
+| ✅ Dependency Injection (DI) | ✅ Done | [Notes (Setter)](notes/DependencyInjectionSetterBased.md) | 
+[Notes (Constructor)](notes/DependencyInjectionConstructorBased.md) | 
+
+
 | ⏳ Spring Boot Basics | In Progress | – | – |
 | ⏳ Bean Scopes & Lifecycle | Planned | – | – |
 | ⏳ Spring MVC | Planned | – | – |
