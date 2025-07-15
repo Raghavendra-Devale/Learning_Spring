@@ -20,8 +20,8 @@ This repository includes:
 
 | Topic | Status | Notes | Demo Code |
 |-------|--------|-------|-----------|
-| ✅ Dependency Injection (DI) | ✅ Done | [Notes (Setter)](notes/DependencyInjectionSetterBased.md) | 
-[Notes (Constructor)](notes/DependencyInjectionConstructorBased.md) | 
+| ✅ Dependency Injection (DI) | ✅ Done | [Notes (Setter)](Notes/DependencyInjectionSetterBased.md) | 
+[Notes (Constructor)](Notes/DependencyInjectionConstructorBased.md) | 
 
 
 | ⏳ Spring Boot Basics | In Progress | – | – |
