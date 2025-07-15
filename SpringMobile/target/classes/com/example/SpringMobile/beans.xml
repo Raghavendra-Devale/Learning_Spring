@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- <bean id ="jioSimCard" class = "com.example.SpringMobile.JioSimCard"> 
+		<property name="networkName" value = "Jio"/> </bean> -->
+	<!-- <bean id = "airtelSimCard" class = "com.example.SpringMobile.AirtelSimcard"> 
+		<property name="networkName" value = "Airtel"/> </bean> -->
+		<bean id ="vodafone" class = "com.example.SpringMobile.VodafoneSimCard">
+		<property name="networkName" value = "Vodafone"/>
+		</bean>
+
+	<bean id="mobile" class="com.example.SpringMobile.Mobile">
+		<property name="simCard" ref="vodafone" />
+	</bean>
+
+</beans>
