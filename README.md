@@ -23,7 +23,7 @@ This repository includes:
 | ✅ Dependency Injection (DI) | ✅ Done | [Notes (Setter)](Notes/DependencyInjectionSetterBased.md) 
 | ✅ Dependency Injection (DI) Constructor based | ✅ Done |[Notes (Constructor)](Notes/DependencyInjectionConstructorBased.md) | 
 | ✅ Autowiring | ✅ Done |[Notes (Autowiring)](Notes/Autowiring.md) | 
-| ✅ Autowiring | ✅ Done |[Notes (Autowiring Example)](Notes/AutowiringExample.md) | [Demo](https://github.com/Raghavendra-Devale/spring-learning/tree/main/XMLAutowiring
+| ✅ Autowiring | ✅ Done |[Notes (Autowiring Example)](Notes/AutowiringExample.md) | [Demo](XMLAutowiring)
 
 
 | ⏳ Spring Boot Basics | In Progress | – | – |
