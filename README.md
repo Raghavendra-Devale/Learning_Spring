@@ -20,8 +20,10 @@ This repository includes:
 
 | Topic | Status | Notes | Demo Code |
 |-------|--------|-------|-----------|
-| ✅ Dependency Injection (DI) | ✅ Done | [Notes (Setter)](Notes/DependencyInjectionSetterBased.md) | 
-[Notes (Constructor)](Notes/DependencyInjectionConstructorBased.md) | 
+| ✅ Dependency Injection (DI) | ✅ Done | [Notes (Setter)](Notes/DependencyInjectionSetterBased.md) 
+| ✅ Dependency Injection (DI) Constructor based | ✅ Done |[Notes (Constructor)](Notes/DependencyInjectionConstructorBased.md) | 
+| ✅ Autowiring | ✅ Done |[Notes (Autowiring)](Notes/Autowiring.md) | 
+| ✅ Autowiring | ✅ Done |[Notes (Autowiring Example)](Notes/AutowiringExample.md) | [Demo (Autowiring )]
 
 
 | ⏳ Spring Boot Basics | In Progress | – | – |
